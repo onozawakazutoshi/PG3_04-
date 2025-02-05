@@ -111,9 +111,13 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClCompile Include="..\..\..\Downloads\PG3_0401\ClearScene.cpp" />
     <ClCompile Include="..\..\..\Downloads\PG3_0401\GameManager.cpp" />
     <ClCompile Include="..\..\..\Downloads\PG3_0401\IScene.cpp" />
-    <ClCompile Include="..\..\..\Downloads\PG3_0401\main.cpp" />
     <ClCompile Include="..\..\..\Downloads\PG3_0401\StageScene.cpp" />
     <ClCompile Include="..\..\..\Downloads\PG3_0401\TitleScene.cpp" />
+    <ClCompile Include="..\..\..\Downloads\PG3_0501\Command.cpp" />
+    <ClCompile Include="..\..\..\Downloads\PG3_0501\InputHandler.cpp" />
+    <ClCompile Include="..\..\..\Downloads\PG3_0501\main.cpp" />
+    <ClCompile Include="..\..\..\Downloads\PG3_0501\Player.cpp" />
+    <ClCompile Include="..\..\..\Downloads\PG3_0501\Scene.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -122,6 +126,10 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClInclude Include="..\..\..\Downloads\PG3_0401\IScene.h" />
     <ClInclude Include="..\..\..\Downloads\PG3_0401\StageScene.h" />
     <ClInclude Include="..\..\..\Downloads\PG3_0401\TitleScene.h" />
+    <ClInclude Include="..\..\..\Downloads\PG3_0501\Command.h" />
+    <ClInclude Include="..\..\..\Downloads\PG3_0501\InputHandler.h" />
+    <ClInclude Include="..\..\..\Downloads\PG3_0501\Player.h" />
+    <ClInclude Include="..\..\..\Downloads\PG3_0501\Scene.h" />
     <ClInclude Include="..\DirectXGame\3d\Camera.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Matrix4x4.h" />
