@@ -108,10 +108,20 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\Downloads\PG3_0401\ClearScene.cpp" />
+    <ClCompile Include="..\..\..\Downloads\PG3_0401\GameManager.cpp" />
+    <ClCompile Include="..\..\..\Downloads\PG3_0401\IScene.cpp" />
+    <ClCompile Include="..\..\..\Downloads\PG3_0401\main.cpp" />
+    <ClCompile Include="..\..\..\Downloads\PG3_0401\StageScene.cpp" />
+    <ClCompile Include="..\..\..\Downloads\PG3_0401\TitleScene.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp" />
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\Downloads\PG3_0401\ClearScene.h" />
+    <ClInclude Include="..\..\..\Downloads\PG3_0401\GameManager.h" />
+    <ClInclude Include="..\..\..\Downloads\PG3_0401\IScene.h" />
+    <ClInclude Include="..\..\..\Downloads\PG3_0401\StageScene.h" />
+    <ClInclude Include="..\..\..\Downloads\PG3_0401\TitleScene.h" />
     <ClInclude Include="..\DirectXGame\3d\Camera.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Matrix4x4.h" />

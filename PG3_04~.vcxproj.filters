@@ -16,9 +16,26 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp">
       <Filter>KamataEngine\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\PG3_0401\ClearScene.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\PG3_0401\GameManager.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\PG3_0401\IScene.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\PG3_0401\StageScene.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\PG3_0401\TitleScene.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\PG3_0401\main.cpp">
+      <Filter>KamataEngine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -103,5 +120,10 @@
     <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h">
       <Filter>KamataEngine\Include</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\PG3_0401\ClearScene.h" />
+    <ClInclude Include="..\..\..\Downloads\PG3_0401\GameManager.h" />
+    <ClInclude Include="..\..\..\Downloads\PG3_0401\IScene.h" />
+    <ClInclude Include="..\..\..\Downloads\PG3_0401\StageScene.h" />
+    <ClInclude Include="..\..\..\Downloads\PG3_0401\TitleScene.h" />
   </ItemGroup>
 </Project>
